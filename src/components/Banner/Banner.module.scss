@@ -1,0 +1,98 @@
+@import '../../Global.module.scss';
+
+.wrapper{
+  @media(max-width:$sm),(max-width:$md){
+    // display: flex;
+    flex-direction: column;
+    padding: 0px;
+    .rightside{
+      width: 85%;
+
+      margin: 20px;
+      max-width: 100%;
+      .primaryText{
+        
+          font-size: 2.0rem;
+          line-height: 40px;
+        
+      }
+     
+    }
+    .leftside{
+
+      margin-left: -80px;
+      >img{
+       max-width:300px;
+      }
+    }
+  }
+  display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+  padding: 20px;
+ 
+  .leftside{
+    width: 40%;
+    // margin-right: 70px;
+    >img{
+      height: 100%;
+    }
+  }
+  .rightside{
+    // width: 45%;
+    .primaryText {
+      @media (max-width: $sm) {
+        font-size: 2.0rem;
+        line-height: 40px;
+      }
+      font-size: 2.5rem;
+      line-height: 50px;
+      font-weight: 500;
+      color: darkblue;
+      
+    
+    }
+    .secondaryText {
+      @media (max-width: $sm) {
+        font-size: 1.1rem;
+        line-height: 10px;
+      }
+      line-height: 30px;
+      font-size: 1.3rem;
+      font-weight:400;
+      color: $secondary;
+    }
+    .points{
+      font-weight: 500;
+      font-size: medium;
+      line-height: 1rem;
+      margin-top: 30px;
+    
+      display: flex;
+      position: relative;
+      height: 60px;
+      >:nth-child(1){
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        
+      }
+      >:nth-child(2){
+       position: absolute;
+       bottom: 0px; 
+      }
+      >:nth-child(3){
+        position: absolute;
+        top: 0px;
+        right: 0px;
+      }
+      >:nth-child(4){
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+      }
+    
+    }
+  
+  }
+}

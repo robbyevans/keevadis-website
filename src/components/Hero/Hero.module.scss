@@ -1,0 +1,86 @@
+@import '../../Global.module.scss';
+
+.wrapper{
+  overflow: hidden;
+  margin-top: 50px;
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fafafa;
+
+
+ 
+
+  .leftside{
+    margin-top: 10px;
+    margin: 10px;
+    .action{
+      @media(max-width:$sm),(max-width:$md){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        >button{
+          margin-right: 20px;
+        }
+        
+      }
+
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      width: 200px;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+  
+
+  }
+  .rightside{
+    margin: 10px;
+    position: relative;
+    >:nth-child(2){
+      @media(max-width:$sm),(max-width:$md){
+        display: none;
+      }
+
+      position: absolute;
+      bottom: -150px;
+      left: -100px;
+   
+    }
+  }
+
+  @media(max-width:$sm),(max-width:$md){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+}
+
+.primaryText {
+  @media (max-width: $sm) {
+    font-size: 2.0rem;
+    line-height: 40px;
+  }
+  font-size: 3rem;
+  line-height: 50px;
+  font-weight: 500;
+  color: darkblue;
+
+}
+.secondaryText {
+  @media (max-width: $sm) {
+    font-size: 1.1rem;
+    line-height: 10px;
+  }
+  line-height: 30px;
+  font-size: 1.3rem;
+  font-weight:400;
+  color: $secondary;
+}
