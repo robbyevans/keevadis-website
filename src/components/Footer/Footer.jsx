@@ -5,7 +5,10 @@ function Footer() {
   return (
     <div className={css.wrapper} >
       <div className={css.card}>
-        <span className={css.secondaryText}>Keevadis</span>
+        <span className={`${css.secondaryText} ${css.footerHeader}`}>
+        <img src="logo.png" class="h-6 mr-3 sm:h-9" alt="Keevadis Logo" />
+          
+           Keevadis</span>
         <span className={css.footerText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum autem blanditiis eum consequatur quo iusto?</span>
       </div>
       <div className={css.card}>

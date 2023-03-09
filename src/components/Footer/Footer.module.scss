@@ -13,6 +13,15 @@
         display: none;
       }
     }
+    .footerHeader{
+      display: flex;
+      align-items: center;
+      >img{
+        margin-bottom: -30px;
+      }
+
+  
+    }
   }
   *{
     background-color: darkblue;
@@ -29,19 +38,15 @@
    max-width: 25%; 
   }
   .card{
-    // background-color: darkblue;
-    // border: 1px solid blue;
+
     display: flex;
     flex-direction: column;
-    // color: #fff;
-    // >:nth-child(1){
-    //   background-color: darkblue;
-    // }
-    // >:nth-child(2){
-    //   background-color: darkblue;
-    // }
-    // >:nth-child(3){
-    //   background-color: darkblue;
-    // }
+
+  }
+  .footerHeader{
+    display: flex;
+    align-items: center;
+
+
   }
 }

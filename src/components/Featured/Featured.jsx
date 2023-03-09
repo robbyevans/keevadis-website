@@ -6,7 +6,7 @@ function Featured() {
     <div className={css.wrapper}>
             <div className={css.heading}>
         <span className={css.secondaryText} >Our Featured Properties.</span>
-        <span className={css.secondaryText} >One of our biggest product to be featured and that has sold out the most</span>
+        <span className={css.secondaryText} >We help you find a good deal </span>
       </div>
       <div className={css.body}>
         <div className={css.card}>
