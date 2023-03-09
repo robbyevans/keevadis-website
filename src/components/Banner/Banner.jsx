@@ -6,7 +6,7 @@ function Banner() {
   return (
     <div className={css.wrapper}>
       <div className={css.leftside}>
-        <img src='/Rectangle 3.png'/>
+        <img src='/keevadis01.jpeg'/>
       </div>
       <div className={css.rightside}>
         <span className={css.primaryText}>Why you should choose us.</span><br/>

@@ -10,7 +10,7 @@ function Featured() {
       </div>
       <div className={css.body}>
         <div className={css.card}>
-          <img src='./Rectangle 4.png'/>
+          <img src='./flats.jpg'/>
           <div className={css.cardWrap}>
             <span className={css.secondaryText}>The Palace</span>
             <span>Karen,the place</span>
@@ -18,7 +18,7 @@ function Featured() {
           </div>
         </div>
         <div className={css.card}>
-        <img src='./Rectangle 4 (1).png'/>
+        <img src='./mansion01.jpg'/>
           <div className={css.cardWrap}>
             <span className={css.secondaryText}>Ivy Rory</span>
             <span>Kilimani,phase 3</span>
@@ -26,7 +26,7 @@ function Featured() {
           </div>
         </div>
         <div className={css.card}>
-        <img src='./Rectangle 4 (2).png'/>
+        <img src='./mansion.jpg'/>
           <div className={css.cardWrap}>
             <span className={css.secondaryText} >Rexona</span>
             <span>Ngong,phase 1<br/></span>

@@ -14,6 +14,10 @@
   .leftside{
     margin-top: 10px;
     margin: 10px;
+    >:nth-child(1){
+
+      line-height: 60px;
+    }
     .action{
       @media(max-width:$sm),(max-width:$md){
         display: flex;
@@ -39,16 +43,20 @@
   .rightside{
     margin: 10px;
     position: relative;
-    >:nth-child(2){
-      @media(max-width:$sm),(max-width:$md){
-        display: none;
-      }
-
-      position: absolute;
-      bottom: -150px;
-      left: -100px;
-   
+    >img{
+      border-top-right-radius: 150px;
+      border-bottom-left-radius:150px ;
     }
+    // >:nth-child(2){
+    //   @media(max-width:$sm),(max-width:$md){
+    //     display: none;
+    //   }
+
+    //   position: absolute;
+    //   bottom: -150px;
+    //   left: -100px;
+   
+    // }
   }
 
   @media(max-width:$sm),(max-width:$md){
