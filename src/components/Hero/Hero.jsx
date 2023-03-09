@@ -1,6 +1,6 @@
 import React from 'react'
 import css from './Hero.module.scss'
-import '../../Global.module.scss'
+// import '../../Global.module.scss'
 
 function Hero() {
   return (
