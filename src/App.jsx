@@ -6,6 +6,7 @@ import Cardbox from './components/Cardbox/Cardbox'
 import './Styles.css'
 import Banner from './components/Banner/Banner'
 import Featured from './components/Featured/Featured'
+import Testimonials from './components/Testimonials/Testimonials'
 // import './Global.module.scss'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Cardbox/>
       <Banner/>
       <Featured/>
+      <Testimonials/>
     </div>
   )
 }
