@@ -33,7 +33,7 @@
         width: 70%;
         margin: 20px;
         border-top-right-radius:100px;
-        background-color: red;
+        // background-color: red;
         >:nth-child(3){
           line-height: 20px;
         }
@@ -57,7 +57,6 @@
     padding-bottom: 2rem;
     height: 300px;
     border-radius: 20px;
-    // text-align: left;
 
     background-color: #ffff;
     box-shadow: -3px 5px 17px 5px rgba(0,0,0,0.17);
@@ -77,6 +76,16 @@
       font-size: 1.3rem;
       font-weight: 400;
       color: $secondary;
+    }
+    .cardWrap{
+      // border: 1px solid red;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+
     }
    
   }
