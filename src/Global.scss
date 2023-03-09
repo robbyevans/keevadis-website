@@ -11,15 +11,12 @@ $lg : 1024px;
 $xl: 1280px;
 $xxl: 1536px;
 $primary: darkblue;
-// $primary:#ff0000;
-// $secondary: #286F6C;
+
 $secondary:#333333;
 $secondary-white: #E7E7E7;
 
 
-.bg-primary {
-  background-color: red;
-}
+
 
 .innerWidth {
   @media (min-width: $xxl) {

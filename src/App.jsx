@@ -9,7 +9,6 @@ import Featured from './components/Featured/Featured'
 import Testimonials from './components/Testimonials/Testimonials'
 import Footer from './components/Footer/Footer'
 
-// import './Global.module.scss'
 
 function App() {
   return (
