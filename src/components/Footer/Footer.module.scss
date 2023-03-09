@@ -1,0 +1,47 @@
+@import '../../Global.scss';
+
+.wrapper{
+  @media(max-width:$sm),(max-width:$md){
+    display: flex;
+    height: 20vh;
+    *{
+      margin-top: -30px;
+      .footerText{
+        display: none;
+      }
+      a{
+        display: none;
+      }
+    }
+  }
+  *{
+    background-color: darkblue;
+    color: #fff;
+  }
+  background-color: darkblue;
+  // border: 1px solid violet;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 50px;
+ 
+  >:nth-child(1){
+   max-width: 25%; 
+  }
+  .card{
+    // background-color: darkblue;
+    // border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    // color: #fff;
+    // >:nth-child(1){
+    //   background-color: darkblue;
+    // }
+    // >:nth-child(2){
+    //   background-color: darkblue;
+    // }
+    // >:nth-child(3){
+    //   background-color: darkblue;
+    // }
+  }
+}

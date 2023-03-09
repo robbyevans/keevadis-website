@@ -7,6 +7,8 @@ import './Styles.css'
 import Banner from './components/Banner/Banner'
 import Featured from './components/Featured/Featured'
 import Testimonials from './components/Testimonials/Testimonials'
+import Footer from './components/Footer/Footer'
+
 // import './Global.module.scss'
 
 function App() {
@@ -19,6 +21,7 @@ function App() {
       <Banner/>
       <Featured/>
       <Testimonials/>
+      <Footer/>
     </div>
   )
 }
